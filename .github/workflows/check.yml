@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Check password
-        uses: AlicanAkkus/pinder-action@0.2.5
+        uses: AlicanAkkus/pinder-action@0.2.6
