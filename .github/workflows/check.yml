@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Check password
-        uses: AlicanAkkus/pinder-action@0.2.9
+        uses: AlicanAkkus/pinder-action@1
         with:
           path: ./
