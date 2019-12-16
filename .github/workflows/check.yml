@@ -12,7 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
+      - uses: actions/checkout@master
       - name: Check password
-        uses: AlicanAkkus/pinder-action@1
-        with:
-          path: ./
+        uses: AlicanAkkus/pinder-action@2
